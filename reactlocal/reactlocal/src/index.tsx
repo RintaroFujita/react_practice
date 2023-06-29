@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 // import Message from './components/Message';
 // import ContextSample from './components/ContextSample'
 // import Counter from './components/Counter';
-import {Parent} from './components/Parent';
+import ImageUploader from './components/ImageUploader'
 
 
 const root = ReactDOM.createRoot(
@@ -16,7 +16,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Parent />
+    <ImageUploader />
     {/* Counter initialValue={0} */}
   </React.StrictMode>
 );
